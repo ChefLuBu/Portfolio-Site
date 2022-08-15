@@ -228,7 +228,6 @@ table.center {
 
 .messagebutton {
     position: relative;
-    float:left;
     margin-right: 10px;
     margin-left: 100px;
     cursor: pointer;
