@@ -253,28 +253,26 @@ table.center {
 }
 
 .messagebutton {
-    position: relative;
-    margin-right: 10px;
-    margin-left: 100px;
-    cursor: pointer;
-    font-weight: bold;
-    border: 1px solid black;
-    border-radius: 10px;
-     /* overwrites browser defaults */
-    /* resets the border */
-    border: none;
-    display: inline-block;
-    /* takes the font from the outer container */
-    font-family: inherit;
-    /* style button */
-    background-color: #e3008d;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 3px;
-    /* width of the border, type, color */
-    border-bottom: 2px solid #000;
-    transition: 0.2s opacity;
+  float:left;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  font-family: inherit;
+  background-color: #e3008d;
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 4px #000;
+  transition: 0.2s;
+  margin-left: 103px;
+}
+
+.messagebutton:hover, .messagebutton:focus {
+cursor: pointer;
+  color: #fff;
+  opacity: 0.7;
 }
 
 .cfaddress {
