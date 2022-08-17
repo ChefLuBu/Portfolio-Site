@@ -194,7 +194,7 @@ button:hover, button:focus {
 
 .glasses{
   height: auto;
-  width: 20%;
+  width: auto;
   border-radius: 100px;
   max-width: fit-content;
   max-height: fit-content;
